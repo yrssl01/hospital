@@ -15,6 +15,7 @@ urlpatterns = [
             'post': 'create'
         })
     ),
+    
     path(
         'doctor/<int:pk>/',
         DoctorView.as_view({
